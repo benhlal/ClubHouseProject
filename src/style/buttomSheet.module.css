@@ -1,2 +1,14 @@
 .bottomSheetContainer {
+    background-color: white;
+    border-radius: 1.5em 1.5em 0 0;
+    padding: 1.5em 1em;
+    position: relative;
+    height: 100%;
+}
+
+.bottomSheetContainer p {
+    font-size: 1em;
+    color: var(--textColor);
+    text-align: center;
+    font-weight: 500;
 }

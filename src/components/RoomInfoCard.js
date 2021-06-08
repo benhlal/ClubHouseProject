@@ -1,7 +1,6 @@
 import React from 'react';
 import style from '../style/roomCard.module.css'
 import data from '../data/roomCard.json'
-import Avatar from '@material-ui/core/Avatar';
 import {makeStyles} from "@material-ui/core";
 import {BsChatDots, BsChatDotsFill, BsFillPersonFill} from "react-icons/all";
 
