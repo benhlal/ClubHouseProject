@@ -1,0 +1,55 @@
+.homeCardContainer {
+    padding: 3.5em 1em;
+    height: 100%;
+    overflow: auto;
+
+}
+
+.homeCardContainer + .actionBtn {
+    display: flex;
+    align-items: center;
+    padding: 4em 1.5em 2em 1.5em;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(transparent 20%, #f2f0e4 80%);
+
+}
+
+
+.homeCardContainer + .actionBtn button {
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+}
+
+.homeCardContainer + .actionBtn button svg {
+    font-size: 1.3em;
+}
+
+.homeCardContainer + .actionBtn > button:first-child {
+    border-radius: 2em;
+    background-color: #28ae61;
+    color: white;
+    padding: 0.3em 1em;
+    font-size: 1.1em;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+
+.homeCardContainer + .actionBtn > button:nth-child(2) {
+    line-height: 1;
+
+}
+
+.homeCardContainer + .actionBtn > button:nth-child(2) svg {
+    color: var(--textColor);
+}
