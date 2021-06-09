@@ -8,6 +8,7 @@ import AllowNotification from "./pages/AllowNotification";
 import {Switch} from "react-router";
 import AppLayout from "./pages/Layouts/AppLayout";
 import Home from "./pages/Home";
+import Explore from "./pages/Explore";
 
 function App() {
     return (
@@ -23,10 +24,11 @@ function App() {
                     </Switch>
                 </PlanLayout>
             </Route>
-            <Route exat path={"/home"}>
+            <Route exat path={["/home", "/explore"]}>
                 <AppLayout>
                     <Switch>
-                        < Route exact path="/home" component={() => <Home/>}/>
+                        <Route exact path="/home" component={() => <Home/>}/>
+                        <Route exact path="/explore" component={() => <Explore/>}/>
                     </Switch>
                 </AppLayout>
             </Route>
