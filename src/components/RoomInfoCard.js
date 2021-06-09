@@ -36,8 +36,8 @@ function RoomInfoCard(props) {
 
                             <div className={style.roomMembers}>
                                 <div>
-                                    <img alt="Remy Sharp" src="/images/b2.jpg" className={classes.small}/>
-                                    <img alt="Remy Sharp" src="/images/pro.png"/>
+                                    <img alt="Remy Sharp" src="/images/b2.png" className={classes.small}/>
+                                    <img alt="Remy Sharp" src="/images/b3.png"/>
                                 </div>
                                 <div>
                                     {item.members.map((member) => (

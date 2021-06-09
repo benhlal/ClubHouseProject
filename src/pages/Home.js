@@ -5,6 +5,7 @@ import style from '../style/home.module.css'
 import RoomInfoCard from "../components/RoomInfoCard";
 import {AiOutlinePlus, BsGrid3X3Gap} from "react-icons/all";
 import data from '../data/roomCard.json'
+import newRoomData from '../data/newRoom.json'
 import BottomSheet from "../components/BottomSheet"
 
 function Home(props) {
@@ -47,7 +48,7 @@ function Home(props) {
                     <BsGrid3X3Gap style={{marginRight: '0.500em'}}/>
                 </button>
             </div>
-            <BottomSheet sheetTitle={'start room'}
+            <BottomSheet sheetTitle="start_room"
                          setSheetVisible={(item) => setISheetVisible(item)}
                          sheetVisible={sheetVisible}
                          cardDetail={
@@ -62,12 +63,15 @@ function Home(props) {
                                      setSheetCreateRoom(item);
                                      setLoaderVisibility(false)
                                  }, 1000);
+                             }}
+            />
 
-                             }
-
-                         }
-
-
+            <BottomSheet
+                sheetTitle='new_room'
+                setSheetVisible={(item) => setSheetCreateRoom(item)}
+                sheetVisible={sheetCreateRoom}
+                cardDetail={newRoomData}
+                setItemsVisible={(item) => setItemsVisible(item)}
             />
         </>
     )
