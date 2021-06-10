@@ -12,11 +12,19 @@ function PhoneConfirmation(props) {
                 <img src="/images/arrow.png" alt="<-"/>
             </Link>
             <h1>Enter you phone</h1>
-            <PhoneInput international defaultCountry="MA" value={value} onChange={setValue}/>
+            <PhoneInput
+                international
+                defaultCountry="MA"
+                value={value}
+                onChange={setValue}/>
             <p>By entering your number, you're agreeing to our<span> Terms of service and Privacy Policy </span>Thanks!
             </p>
-            <Link exact to='/code_confirm' className="primaryBtn d-flex align-items-center">Next <img
-                src='/images/nextArrowIcon.svg' alt=""/> </Link>
+            <Link exact to='/code_confirm' className="primaryBtn d-flex align-items-center "
+                  style={{
+                      alignItems: 'center',
+                      justifyContent: 'center'
+                  }}>Next <img
+                src='/images/nextArrowIcon.svg' alt="" style={{marginLeft: '5px'}}/> </Link>
         </div>
     );
 }
