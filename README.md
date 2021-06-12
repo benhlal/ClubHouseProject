@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # Screen Shots
-![alt text](https://github.com/benhlal/ClubHouseProject/blob/master/read_me_imgs/clubhouse.png)
+![alt text](https://github.com/benhlal/ClubHouseProject/blob/master/read_me_imgs/clubhouse.png)  ![alt text](https://github.com/benhlal/ClubHouseProject/blob/master/read_me_imgs/ch_explore.PNG)
 
-![alt text](https://github.com/benhlal/ClubHouseProject/blob/master/read_me_imgs/ch_explore.PNG)
+
 
 ## Available Scripts
 
