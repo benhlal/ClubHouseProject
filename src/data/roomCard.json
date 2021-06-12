@@ -1,118 +1,127 @@
 [
   {
     "id": 1,
-    "title": "GOOD TIME",
-    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "title": "React Developers cafe",
+    "sub_title": "Let's learn together by building",
     "members": [
       {
         "first_name": "Youness",
-        "last_name": "Benhlal"
+        "last_name": "Benhlal",
+        "profile_picture": "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.6435-9/46432672_10218160937001756_247150461369450496_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=174925&_nc_ohc=VARRtOtX3-sAX9EA71O&_nc_ht=scontent-cdg2-1.xx&oh=8a70e3f57d5b32981c932bdbc729529d&oe=60CAAF81"
       },
       {
-        "first_name": "Aarthi",
-        "last_name": "Ramamurthy"
+        "first_name": "Mr.bean",
+        "last_name": "London",
+        "profile_picture": "https://pbs.twimg.com/profile_images/1305140713101893638/HgsFSpEn_400x400.jpg"
       },
       {
-        "first_name": "Steven",
-        "last_name": "Sinofsky"
+        "first_name": "Elon",
+        "last_name": "Musk",
+        "profile_picture": ""
       },
       {
-        "first_name": "Paul",
-        "last_name": "Davison"
+        "first_name": "Delta",
+        "last_name": "Davison",
+        "profile_picture": ""
       }
     ]
   },
   {
     "id": 2,
-    "title": "GOOD TIME",
-    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "title": "CryptoCurrency World",
+    "sub_title": "Elon market manipulation",
     "members": [
       {
-        "first_name": "Sriram",
-        "last_name": "krishnan"
+        "first_name": "Elon",
+        "last_name": "Hater",
+        "profile_picture": "https://media.lesechos.com/api/v1/images/view/5f3f5be68fe56f0be8160fab/1280x720/0603734518167-web-tete.jpg"
       },
       {
-        "first_name": "Aarthi",
-        "last_name": "Ramamurthy"
+        "first_name": "Bill",
+        "last_name": "Gates",
+        "profile_picture": "https://image.cnbcfm.com/api/v1/image/106807625-1607401571586-gettyimages-1057615164-775247724LZ036_China_Intern.jpeg?v=1623340881"
       },
       {
-        "first_name": "Steven",
-        "last_name": "Sinofsky"
+        "first_name": "Mark",
+        "last_name": "Zuker",
+        "profile_picture": ""
       },
       {
-        "first_name": "Paul",
-        "last_name": "Davison"
+        "first_name": "Popay",
+        "last_name": "Spinach",
+        "profile_picture": ""
       }
     ]
   },
   {
     "id": 3,
-    "title": "GOOD TIME",
-    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "title": "Congress USA",
+    "sub_title": "Cambridge analytica \uD83C\uDF89 !!!",
     "members": [
       {
-        "first_name": "Sriram",
-        "last_name": "krishnan"
+        "first_name": "Alexandria ",
+        "last_name": "Ocasio-Cortez",
+        "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Alexandria_Ocasio-Cortez_Official_Portrait.jpg"
       },
       {
-        "first_name": "Aarthi",
-        "last_name": "Ramamurthy"
+        "first_name": "Trump",
+        "last_name": "Dump",
+        "profile_picture": "https://i.pinimg.com/originals/e6/c4/ea/e6c4eaaa0164d82481a3f1e27768bcb0.jpg"
       },
       {
-        "first_name": "Steven",
-        "last_name": "Sinofsky"
-      },
-      {
-        "first_name": "Paul",
-        "last_name": "Davison"
+        "first_name": "Alexa",
+        "last_name": "Seri",
+        "profile_picture": ""
       }
     ]
   },
-
   {
     "id": 4,
-    "title": "GOOD TIME",
-    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "title": "QUANTUM COMPUTING",
+    "sub_title": "Circuits building Qiskit",
     "members": [
       {
-        "first_name": "Sriram",
-        "last_name": "krishnan"
+        "first_name": "Qiskit",
+        "last_name": "Nerd",
+        "profile_picture": "https://physicsworld.com/wp-content/uploads/2020/11/quantum-computing-or-comms-1008154320-iStock_johnason.jpg"
       },
       {
-        "first_name": "Aarthi",
-        "last_name": "Ramamurthy"
+        "first_name": "IBM",
+        "last_name": "Watchin",
+        "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
       },
       {
-        "first_name": "Steven",
-        "last_name": "Sinofsky"
+        "first_name": "Jason",
+        "last_name": "St"
       },
       {
         "first_name": "Paul",
-        "last_name": "Davison"
+        "last_name": "Gasol"
       }
     ]
   },
-
   {
     "id": 5,
-    "title": "GOOD TIME",
-    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "title": "MACHINE LEARNING PYTHON VS JAVA ",
+    "sub_title": "Your preferred language x Libraries ",
     "members": [
       {
-        "first_name": "Sriram",
-        "last_name": "krishnan"
+        "first_name": "Python",
+        "last_name": "Geek",
+        "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png"
       },
       {
-        "first_name": "Aarthi",
-        "last_name": "Ramamurthy"
+        "first_name": "Java",
+        "last_name": "Nerd",
+        "profile_picture": "https://upload.wikimedia.org/wikipedia/fr/2/2e/Java_Logo.svg"
       },
       {
-        "first_name": "Steven",
-        "last_name": "Sinofsky"
+        "first_name": "Linux",
+        "last_name": "Daddy"
       },
       {
-        "first_name": "Paul",
-        "last_name": "Davison"
+        "first_name": "Amazon",
+        "last_name": "Aws"
       }
     ]
   }

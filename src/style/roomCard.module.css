@@ -20,6 +20,21 @@
     color: black;
 }
 
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.titleContainer svg {
+    color: #28ae61;
+    margin-left: 0.55em;
+    width: 10px;
+    margin-bottom: 5px;
+}
+
 .roomMembers {
     display: flex;
     align-items: flex-start;

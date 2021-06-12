@@ -2,7 +2,7 @@ import React from 'react';
 import style from '../style/roomCard.module.css'
 import data from '../data/roomCard.json'
 import {makeStyles} from "@material-ui/core";
-import {BsChatDots, BsChatDotsFill, BsFillPersonFill} from "react-icons/all";
+import {BsChatDots, BsChatDotsFill, BsFillPersonFill, BsHouse, BsHouseFill} from "react-icons/all";
 
 
 function RoomInfoCard(props) {
@@ -31,13 +31,16 @@ function RoomInfoCard(props) {
                 <div>
                     <div>
                         <div className={style.roomCardContainer}>
-                            <h6>{item.title}</h6>
+                            <div className={style.titleContainer}>
+                                <h6>{item.title}</h6><BsHouseFill/>
+                            </div>
+
                             <h2>{item.sub_title}</h2>
 
                             <div className={style.roomMembers}>
                                 <div>
-                                    <img alt="Remy Sharp" src="/images/b2.png" className={classes.small}/>
-                                    <img alt="Remy Sharp" src="/images/b3.png"/>
+                                    <img alt="Remy Sharp" src={item.members[0].profile_picture} className={classes.small}/>
+                                    <img alt="Remy Sharp" src={item.members[1].profile_picture}/>
                                 </div>
                                 <div>
                                     {item.members.map((member) => (
@@ -46,10 +49,10 @@ function RoomInfoCard(props) {
                                         </p>
                                     ))}
                                     <p className="d-flex align-items-center">
-                                        <span className="mx-2">1.8</span>
+                                        <span className="mx-2">{item.members.length}</span>
                                         <BsFillPersonFill/>
                                         <span className="mx-2"></span>{" "}
-                                        <span className="mx-2">5</span> <BsChatDotsFill/>
+                                        <span className="mx-2">{item.members.length +3}</span> <BsChatDotsFill/>
                                     </p>
                                 </div>
                             </div>
