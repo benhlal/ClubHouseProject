@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Screen Shots
+![alt text](https://github.com/benhlal/ClubHouseProject/blob/master/read_me_imgs/ch_explore.PNG)
 
 ## Available Scripts
 
